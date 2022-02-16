@@ -1,0 +1,18 @@
+ITSM Privlaged Management Account Cleanup.
+ 
+India managing Privlaged accounts - Ryan Gavin, Mageshwar Ramadoss sec ops, sabode sec ops
+
+ updates - no progress
+	-tomorrow lansweeper admin account meeting tomorrow.
+		-cred list asigned to subnets access attempes running down list, list needs to be paired down.
+
+	-Thycotic meeting tomorrow
+
+Challenges
+1-process gap managing ID between lansweeper/sailpoint/thycotic....  currently manual review
+
+2-not all accounts are a- som on list are named.
+
+3-need automated process.
+
+4-

@@ -1,0 +1,34 @@
+Aproach
+	-scene is safe, post area
+	-first impretions 
+		-number of patients
+		-conditions, noticable blood or deformities
+	-Intro
+		-Hi, im kurt with ski patrol, can i help you?	
+		-covid 
+			-Have you been exposed.
+			-Do you have any symptoms.
+			-have you traveled anywhere that covid has been an issue.
+- Begin primary assessment	
+	-Chief Complaint, MOI, NOI
+	-Immediate medical issues to address, bleading? breathing? 
+	-ABCD's		airway, breathing, circulation 
+		Pulse, breathing cap refill
+	-primary Exam Head, neck, spine, sholders arms, chest, hips/pelvis, femur. DCAP-BLTS (Deformity, contusions, abration/avulsion, puncture,
+									Bruses/bleeding/burns,lacerations,swelling)
+	-responsiveness a/v/p/u - a/e/i/o/u t/i/p/s (alcohol/acidosis,epilepsy/environment/electrolytes,insulin,oxygen/overdose,
+						Uremia,trauma/tumors,infiection,poisoning/psychiatric,seizures/stroke/syncope)
+-call - SAILER - Sex, Age, Incident/complaint, Equipment, Resourses.
+		(Equipment - Sled,bag,kendrick,aed,oxygen,pelvic binder,birthing kit. 
+		 Resources - Additional patrollers, ems/als)
+-Secondary Assessment	
+	-Full Exam - Head, neck, sping, arms, sholders, chest, abdomen, himps, femur, lowerleg.... 
+	-Full vitals
+	-Treat
+	-full vitals
+	-package
+	-full vitals
+	-cms
+-Medical - continue to reavailuate while waiting on ems every 5 minutes.
+	
+		

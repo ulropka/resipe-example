@@ -1,0 +1,12 @@
+Chalenge: Automate provitioning of credentials for users into SAP FSM.  The FSM module was not yet integrated into SAP Security(Recent Aquisition).
+
+Options: 	Manual Creation.
+		On Prem Scirpted Solution to pull attributes from AD/HR_DB_View to create credentials thru FSM Rest API.
+		Azure AD automation to pull attributes from Event Monitoring and Azure GRAPH API to create credentionas thru FSM Rest API.
+
+Solution:  Manual was really not an option that was acceptable. The on prem solution would have worked just fine however we were putting the hosted application behind Azure sso/saml so having components running localy didnt make sense.
+
+		When a new or existing user was provitioned to the FSM_ groups in Azure the add/remove action is writen to the activity log in azure.  I set up a monitor to alert on this activity and send it through the Event Hub where the events were parsed to identify activity on the groups we were targeting.  Targeted events in the Event Hub would be consumed by an Azure Triger Function that would build a rest API call to provision/deprovision users in FSM
+
+The Function:	The triger function processed the event log JSON to pull out group name, user name and event(ADD/Remove).  The event did not however provide enough information to complete the call.  From the attributes pulled from the event, the function would make a Call to Azure Graph API for additional Identity Attributes. Once all atributes have been aquired a call is made to the FSM Rest API.
+
